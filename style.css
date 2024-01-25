@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: #333; /* Màu nền trang web */
+    color: #73716e; /* Màu chữ chính */
+    font-family: 'Inter', Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    background-color: #D7BA85; /* Màu nền header */
+    padding: 20px;
+    text-align: center;
+}
+
+header a {
+    color: #333; /* Màu chữ cho nút quay lại trang chủ */
+    text-decoration: none;
+}
+
+.product {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #D7BA85;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.product-info h2 {
+    color: #D7BA85; /* Màu chữ cho tên sản phẩm */
+}
+
+.product-info p {
+    color: #fff; /* Màu chữ cho mô tả và giá sản phẩm */
+}
+
+.btn-primary {
+    background-color: #D7BA85;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: #C5A25D;
+}
+
